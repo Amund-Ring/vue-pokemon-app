@@ -51,7 +51,7 @@
         );
       }
 
-      fetch('https://pokeapi.co/api/v2/pokemon')
+      fetch('https://pokeapi.co/api/v2/pokemon?limit=100&offset=0')
         .then(res => res.json())
         .then(data => {
           // console.log(data.results);
